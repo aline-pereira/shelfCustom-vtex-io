@@ -1574,10 +1574,10 @@
     react-test-renderer "^16.13.1"
     typescript "^3.9.7"
 
-"@vtex/tsconfig@^0.4.4":
-  version "0.4.4"
-  resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.4.4.tgz#03fd9a65aabe4820e57a9ef14a01fdda1fab26fd"
-  integrity sha512-aja4GABSbOyAC02TBEHem9ONN01fmKJR70t1+PNCgHGrmSVaLcjjQ7HbU0hhoyp+q7MvRIZznM60tIlntTogNA==
+"@vtex/tsconfig@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.6.0.tgz#c9dfffc95d2ef55195237411f9c15269ca30b2a5"
+  integrity sha512-SVQBxaSdEVdpJFja1aVTIiZBgpQKePyYOUWGzcYq6LYkSWqSbz2LoC7TuLUsmfweYmVkv8+4eVuxcDpQVEpq1A==
 
 "@wry/context@^0.4.0":
   version "0.4.4"
@@ -1598,6 +1598,10 @@ abab@^2.0.0:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.5.tgz#c0b678fb32d60fc1219c784d6a826fe385aeb79a"
   integrity sha512-9IK9EadsbHo6jLWIpxpR6pL0sazTXV6+SQv25ZB+F7Bj9mJNaOc4nCRabwd5M/JwmUa8idz6Eci6eKfJryPs6Q==
+
+"acctglobal.shelf-custom@https://alinepoc--acctglobal.myvtex.com/_v/private/typings/linked/v1/acctglobal.shelf-custom@0.0.1+build1664212270/public/@types/acctglobal.shelf-custom":
+  version "0.0.1"
+  resolved "https://alinepoc--acctglobal.myvtex.com/_v/private/typings/linked/v1/acctglobal.shelf-custom@0.0.1+build1664212270/public/@types/acctglobal.shelf-custom#cf39a02649f5d3cec4359a41971a6956d0863efd"
 
 acorn-globals@^4.3.2:
   version "4.3.4"
@@ -4993,7 +4997,7 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^3.9.6, typescript@^3.9.7:
+typescript@3.9.7, typescript@^3.9.7:
   version "3.9.7"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
   integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
@@ -5091,13 +5095,17 @@ verror@1.10.0:
   version "0.4.4"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles#8c45c6decf9acd2b944e07261686decff93d6422"
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.120.0/public/@types/vtex.render-runtime":
-  version "8.120.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.120.0/public/@types/vtex.render-runtime#c5288e637b3bfb8854a48585feefe4992c0a2d80"
+"vtex.product-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.0/public/@types/vtex.product-context":
+  version "0.10.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.0/public/@types/vtex.product-context#c5e2a97b404004681ee12f4fff7e6b62157786cc"
 
-"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.129.0/public/@types/vtex.styleguide":
-  version "9.129.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.129.0/public/@types/vtex.styleguide#916e6fbd7f14585c9e07e040d41d8966860affba"
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime":
+  version "8.132.4"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime#66bb41bd4d342e37c9d85172aad5f7eefebfb6dc"
+
+"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.3/public/@types/vtex.styleguide":
+  version "9.146.3"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.3/public/@types/vtex.styleguide#05558160f29cd8f4aefe419844a4bd66e2b3fdbb"
 
 w3c-hr-time@^1.0.1:
   version "1.0.2"

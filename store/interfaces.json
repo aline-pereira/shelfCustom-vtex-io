@@ -1,5 +1,5 @@
 {
-  "countdown": {
-    "component": "Countdown"
+  "shelf-custom": {
+    "component": "Shelf"
   }
 }
