@@ -1599,9 +1599,9 @@ abab@^2.0.0:
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.5.tgz#c0b678fb32d60fc1219c784d6a826fe385aeb79a"
   integrity sha512-9IK9EadsbHo6jLWIpxpR6pL0sazTXV6+SQv25ZB+F7Bj9mJNaOc4nCRabwd5M/JwmUa8idz6Eci6eKfJryPs6Q==
 
-"acctglobal.shelf-custom@https://alinepoc--acctglobal.myvtex.com/_v/private/typings/linked/v1/acctglobal.shelf-custom@0.0.1+build1664212270/public/@types/acctglobal.shelf-custom":
+"acctglobal.shelf-custom@https://alinepoc--acctglobal.myvtex.com/_v/private/typings/linked/v1/acctglobal.shelf-custom@0.0.1+build1664319343/public/@types/acctglobal.shelf-custom":
   version "0.0.1"
-  resolved "https://alinepoc--acctglobal.myvtex.com/_v/private/typings/linked/v1/acctglobal.shelf-custom@0.0.1+build1664212270/public/@types/acctglobal.shelf-custom#cf39a02649f5d3cec4359a41971a6956d0863efd"
+  resolved "https://alinepoc--acctglobal.myvtex.com/_v/private/typings/linked/v1/acctglobal.shelf-custom@0.0.1+build1664319343/public/@types/acctglobal.shelf-custom#3a15d11ce93b7085526729cdb191300f848b9574"
 
 acorn-globals@^4.3.2:
   version "4.3.4"
@@ -5102,6 +5102,10 @@ verror@1.10.0:
 "vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime":
   version "8.132.4"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime#66bb41bd4d342e37c9d85172aad5f7eefebfb6dc"
+
+"vtex.slider-layout@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.slider-layout@0.23.0/public/@types/vtex.slider-layout":
+  version "0.23.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.slider-layout@0.23.0/public/@types/vtex.slider-layout#cfb7246c982a5133f75a78bba92e3c1b64cae4c4"
 
 "vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.3/public/@types/vtex.styleguide":
   version "9.146.3"

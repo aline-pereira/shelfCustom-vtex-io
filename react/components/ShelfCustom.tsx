@@ -1,6 +1,8 @@
 import React from 'react'
 import { useCssHandles } from 'vtex.css-handles'
 
+import { formatPrice } from '../helpers/Helpers'
+
 const CSS_HANDLES = [
   'shelfItem',
   'shelfLink',
@@ -14,17 +16,18 @@ const CSS_HANDLES = [
 ]
 
 const ShelfCustom = ({
+  id,
   linkURL,
   imageURL,
   name,
   price,
   sellingPrice,
-}: Shelf) => {
+}: ShelfType) => {
   const handles = useCssHandles(CSS_HANDLES)
 
   return (
     <>
-      <div className={`${handles.shelfItem}`}>
+      <div key={id} className={`${handles.shelfItem}`}>
         <a href={`${linkURL}`} className={`${handles.shelfLink}`}>
           <div className={`${handles.shelfImage}`}>
             <img
@@ -35,10 +38,10 @@ const ShelfCustom = ({
           </div>
           <h2 className={`${handles.shelfProductName}`}>{`${name}`}</h2>
           <div className={`${handles.shelfPrice}`}>
-            <p
-              className={`${handles.shelfSellingPrice}`}
-            >{`${sellingPrice}`}</p>
-            <p className={`${handles.shelfBestPrice}`}>{`${price}`}</p>
+            <p className={`${handles.shelfSellingPrice}`}>
+              {formatPrice(sellingPrice)}
+            </p>
+            <p className={`${handles.shelfBestPrice}`}>{formatPrice(price)}</p>
           </div>
         </a>
       </div>
