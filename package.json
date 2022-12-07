@@ -1,5 +1,5 @@
 {
-  "name": "countdown",
+  "name": "shelf-custom",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -23,6 +23,7 @@
   "devDependencies": {
     "@vtex/prettier-config": "0.1.4",
     "@vtex/tsconfig": "^0.6.0",
+    "babel-jest": "^29.3.1",
     "eslint": "7.12.1",
     "eslint-config-vtex": "12.3.2",
     "eslint-config-vtex-react": "^6.2.1",

@@ -13,6 +13,7 @@ const CSS_HANDLES = [
   'shelfSellingPrice',
   'shelfBestPrice',
   'shelfContent',
+  'shelfButtonAddToCart',
 ]
 
 const ShelfCustom = ({
